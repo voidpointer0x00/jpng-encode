@@ -31,7 +31,7 @@ public class Main {
                     JPngEncoder encodes UTF-8 text to green-alpha .png files.
                     Usage:
                     jpcode [e|d] {file1} {file2} ...
-                      The program fallbacks to reading stdin if there's no files provided.
+                      The program fallbacks to reading stdin if there're no files provided.
                       > e - encode a given file as PNG. Will produce {filename}.png
                             or encoded-{timestamp}.png.
                       > d - decode a given PNG file. The result is written to stdout.
